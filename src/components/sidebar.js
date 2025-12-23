@@ -13,9 +13,11 @@ export default function SideBar() {
 
     const menuItems = [
         { label: "Products", path: "/products", icon: "📦" },
+        { label: "Profile", path: "/Profile", icon: "👥" },
         { label: "Registration", path: "/register", icon: "🧾" },
         { label: "Task", path: "/Addtask", icon: "📝" },
         { label: "Users", path: "/users", icon: "👥" },
+
     ];
 
     return (
@@ -45,7 +47,7 @@ export default function SideBar() {
                         onClick={toggleTheme}
                         className="mt-4 bg-blue-500 text-white px-3 py-2 rounded w-full text-left"
                     >
-                        {theme === "light" ? "🌙 Dark Mode" : "☀ Light Mode"}
+                        {theme === "light" ? " Dark Mode" : " Light Mode"}
                     </button>
                 </nav>
             </div>

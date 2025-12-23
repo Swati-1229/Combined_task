@@ -69,9 +69,6 @@ export default function Users() {
                                         <td className="p-4">{user.city}</td>
                                         <td className="p-4">{user.state}</td>
                                         <td className="p-4 flex gap-4">
-                                            <button className="text-purple-600 hover:underline">
-                                                View
-                                            </button>
                                             <button
                                                 onClick={() => handleDelete(index)}
                                                 className="text-red-600 hover:underline"

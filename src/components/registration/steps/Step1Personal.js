@@ -14,9 +14,7 @@ const Step1Personal = ({ onNext }) => {
 
     return (
         <div className="w-full">
-            {/* MAIN FORM BOX */}
-            <div className="w-full max-w-md bg-[#322b4f] rounded-lg shadow-md p-6 mx-auto">
-                {/* Header */}
+            <div className="w-full max-w-md bg-blue-400 rounded-lg shadow-md p-6 mx-auto">
                 <h2 className="text-2xl font-semibold text-white mb-1">
                     Create Account
                 </h2>
@@ -33,13 +31,11 @@ const Step1Personal = ({ onNext }) => {
                     }}
                 >
                     <Form className="space-y-4">
-
-                        {/* First Name */}
                         <div>
-                            <label className="text-sm text-gray-300">First Name</label>
+                            <label className="text-sm text-gray-600">First Name</label>
                             <Field
                                 name="firstName"
-                                className="w-full mt-1 px-3 py-2 rounded-md bg-[#3b345c] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                className="w-full mt-1 px-3 py-2 rounded-md bg-blue-50 text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
                             />
                             <ErrorMessage
                                 name="firstName"
@@ -47,13 +43,11 @@ const Step1Personal = ({ onNext }) => {
                                 className="text-red-400 text-xs mt-1"
                             />
                         </div>
-
-                        {/* Last Name */}
                         <div>
-                            <label className="text-sm text-gray-300">Last Name</label>
+                            <label className="text-sm text-gray-600">Last Name</label>
                             <Field
                                 name="lastName"
-                                className="w-full mt-1 px-3 py-2 rounded-md bg-[#3b345c] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                className="w-full mt-1 px-3 py-2 rounded-md bg-blue-50 text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
                             />
                             <ErrorMessage
                                 name="lastName"
@@ -61,14 +55,12 @@ const Step1Personal = ({ onNext }) => {
                                 className="text-red-400 text-xs mt-1"
                             />
                         </div>
-
-                        {/* Email */}
                         <div>
-                            <label className="text-sm text-gray-300">Email</label>
+                            <label className="text-sm text-gray-600">Email</label>
                             <Field
                                 name="email"
                                 type="email"
-                                className="w-full mt-1 px-3 py-2 rounded-md bg-[#3b345c] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                className="w-full mt-1 px-3 py-2 rounded-md bg-blue-50 text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
                             />
                             <ErrorMessage
                                 name="email"
@@ -76,11 +68,9 @@ const Step1Personal = ({ onNext }) => {
                                 className="text-red-400 text-xs mt-1"
                             />
                         </div>
-
-                        {/* Button */}
                         <button
                             type="submit"
-                            className="w-full mt-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition"
+                            className="w-full mt-4 py-2 bg-blue-600 text-white rounded-md hover:bg-purple-700 transition"
                         >
                             Next
                         </button>

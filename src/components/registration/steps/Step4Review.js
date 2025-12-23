@@ -26,21 +26,14 @@ const Step4Review = () => {
 
     return (
         <div className="w-full px-4">
-            {/* CARD */}
-            <div className="w-full max-w-lg bg-[#322b4f] rounded-lg shadow-xl p-6 mx-auto text-white">
-
-                {/* Header */}
+            <div className="w-full max-w-lg bg-blue-400 rounded-lg shadow-xl p-6 mx-auto text-white">
                 <h2 className="text-2xl font-semibold mb-1">
                     Review & Submit
                 </h2>
-                <p className="text-sm text-gray-300 mb-6">
+                <p className="text-sm text-gray-600 mb-6">
                     Please verify your details before submission
                 </p>
-
-                {/* REVIEW SECTIONS */}
                 <div className="space-y-4 text-sm">
-
-                    {/* Personal */}
                     <div className="bg-[#3a335a] rounded-md p-4">
                         <h3 className="font-semibold text-purple-300 mb-2">
                             Personal Details
@@ -48,8 +41,6 @@ const Step4Review = () => {
                         <p>Name: {formData.personal?.firstName} {formData.personal?.lastName}</p>
                         <p>Email: {formData.personal?.email}</p>
                     </div>
-
-                    {/* Address */}
                     <div className="bg-[#3a335a] rounded-md p-4">
                         <h3 className="font-semibold text-purple-300 mb-2">
                             Address Details
@@ -57,8 +48,6 @@ const Step4Review = () => {
                         <p>City: {formData.address?.city}</p>
                         <p>Country: {formData.address?.country}</p>
                     </div>
-
-                    {/* Document */}
                     <div className="bg-[#3a335a] rounded-md p-4">
                         <h3 className="font-semibold text-purple-300 mb-2">
                             Uploaded Document

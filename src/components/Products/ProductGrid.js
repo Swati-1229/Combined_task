@@ -76,12 +76,7 @@ const ProductManagement = () => {
 
     return (
         <div className="flex min-h-screen bg-gray-50 dark:bg-gray-900 dark:text-white">
-            {/* Sidebar */}
-
-
-            {/* Main Content */}
             <div className="flex-1 p-6 space-y-6">
-                {/* Add Product Form */}
                 <div className="bg-white dark:bg-gray-800 shadow rounded-xl p-4 flex flex-col sm:flex-row flex-wrap gap-3">
                     <input
                         name="name"
@@ -118,8 +113,6 @@ const ProductManagement = () => {
                         Add Product
                     </button>
                 </div>
-
-                {/* Products Table */}
                 <div className="flex flex-col md:flex-row gap-6">
                     <div className="md:w-1/4">
                         <Filters categories={categories} />

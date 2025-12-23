@@ -52,9 +52,9 @@ export default function Dashboard() {
                         <button onClick={() => navigate("/register")} className="block w-full text-left">🧾 Registration</button>
                         <button onClick={() => navigate("/Addtask")} className="block w-full text-left">📝 Task</button>
                         <button onClick={() => navigate("/users")} className="block w-full text-left">👥 Users</button>
-
+                        <button onClick={() => navigate("/Profile")} className="block w-full text-left">👥 Profile</button>
                         <button onClick={toggleTheme} className="mt-3 bg-blue-500 text-white px-3 py-2 rounded w-full text-left">
-                            {theme === "light" ? " Dark Mode" : "☀ Light Mode"}
+                            {theme === "light" ? " Dark Mode" : " Light Mode"}
                         </button>
                     </nav>
                 </div>
